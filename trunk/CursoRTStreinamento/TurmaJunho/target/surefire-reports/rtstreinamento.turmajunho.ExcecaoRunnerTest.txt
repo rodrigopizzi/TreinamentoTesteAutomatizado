@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: rtstreinamento.turmajunho.ExcecaoRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 14, Time elapsed: 16.823 sec <<< FAILURE!
+Então visualizo a mensagem "Email inválido."(Cenário: Rejeitar formato de email inválido)  Time elapsed: 0.009 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Email inválido.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at rtstreinamento.turmajunho.NewsletterSteps.visualizo_a_mensagem(NewsletterSteps.java:39)
+	at ?.Então visualizo a mensagem "Email inválido."(rtstreinamento/turmajunho/Newsletter.feature:21)
+
+Cenário: Rejeitar formato de email inválido  Time elapsed: 0.01 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Email inválido.]> but was:<[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at rtstreinamento.turmajunho.NewsletterSteps.visualizo_a_mensagem(NewsletterSteps.java:39)
+	at ?.Então visualizo a mensagem "Email inválido."(rtstreinamento/turmajunho/Newsletter.feature:21)
+

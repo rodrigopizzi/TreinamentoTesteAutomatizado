@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="2" time="13.226" errors="0" skipped="14" tests="22" name="rtstreinamento.turmajunho.ExcecaoRunnerTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\bin"/>
+    <property name="java.vm.version" value="20.45-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Desenvolvimento\Workspaces\RTSTreinamento\TurmaJunho"/>
+    <property name="java.runtime.version" value="1.6.0_45-b06"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Rodrigo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="classworlds.conf" value="D:\Desenvolvimento\apache-maven-3.2.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Oracle\product\11.2.0\client\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Java\jdk1.6.0_45\bin;D:\sources\trunk\wms-silt\dist\bpl;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;D:\Desenvolvimento\liquibase-3.1.1-bin;D:\Desenvolvimento\apache-maven-3.2.1\bin;D:\Desenvolvimento\dbmaintain-2.4;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\Rodrigo"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="user.name" value="Rodrigo"/>
+    <property name="java.class.path" value="D:\Desenvolvimento\apache-maven-3.2.1\bin\..\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_45"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\modules\jdk.boot.jar;C:\Program Files (x86)\Java\jdk1.6.0_45\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="maven.home" value="D:\Desenvolvimento\apache-maven-3.2.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.005" classname="Cenário: Rejeitar cadastro email já existente" name="Dado que o eu esteja na página de newsletter"/>
+  <testcase time="0.015" classname="Cenário: Rejeitar cadastro email já existente" name="E o email &quot;joao@gmail.com&quot; já esteja cadastrado">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="Cenário: Rejeitar cadastro email já existente" name="Quando tento cadastrar o email &quot;joao@gmail.com&quot; na newsletter">
+    <skipped/>
+  </testcase>
+  <testcase time="0.015" classname="Cenário: Rejeitar cadastro email já existente" name="Então visualizo a mensagem &quot;Email já cadastrado.&quot;">
+    <skipped/>
+  </testcase>
+  <testcase time="0.022" classname="Cenário: Rejeitar cadastro email já existente" name="Cenário: Rejeitar cadastro email já existente">
+    <skipped/>
+  </testcase>
+  <testcase time="0.022" classname="Cenário: Rejeitar cadastro email já existente" name="Cenário: Rejeitar cadastro email já existente"/>
+  <testcase time="0" classname="Cenário: Rejeitar formato de email inválido" name="Dado que o eu esteja na página de newsletter"/>
+  <testcase time="0" classname="Cenário: Rejeitar formato de email inválido" name="Quando tento cadastrar o email &quot;maria.#@gmail.com&quot; na newsletter"/>
+  <testcase time="0.009" classname="Cenário: Rejeitar formato de email inválido" name="Então visualizo a mensagem &quot;Email inválido.&quot;">
+    <failure message="expected:&lt;[Email inválido.]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Email inválido.]&gt; but was:&lt;[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at rtstreinamento.turmajunho.NewsletterSteps.visualizo_a_mensagem(NewsletterSteps.java:39)
+	at ✽.Então visualizo a mensagem &quot;Email inválido.&quot;(rtstreinamento/turmajunho/Newsletter.feature:21)
+</failure>
+  </testcase>
+  <testcase time="0.01" classname="Cenário: Rejeitar formato de email inválido" name="Cenário: Rejeitar formato de email inválido">
+    <failure message="expected:&lt;[Email inválido.]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[Email inválido.]&gt; but was:&lt;[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at rtstreinamento.turmajunho.NewsletterSteps.visualizo_a_mensagem(NewsletterSteps.java:39)
+	at ✽.Então visualizo a mensagem &quot;Email inválido.&quot;(rtstreinamento/turmajunho/Newsletter.feature:21)
+</failure>
+  </testcase>
+  <testcase time="0.005" classname="Cenário: Pesquisar produto inexistente" name="Dado que eu esteja na página de pesquisa de produto">
+    <skipped/>
+  </testcase>
+  <testcase time="0.005" classname="Cenário: Pesquisar produto inexistente" name="Dado que o filme &quot;O espetacular homem aranha 2&quot; não esteja cadastrado">
+    <skipped/>
+  </testcase>
+  <testcase time="0.006" classname="Cenário: Pesquisar produto inexistente" name="Quando pesquiso o filme &quot;O espetacular homem aranha 2&quot;">
+    <skipped/>
+  </testcase>
+  <testcase time="0.006" classname="Cenário: Pesquisar produto inexistente" name="Então visualizo a mensagem Produto não cadastrado">
+    <skipped/>
+  </testcase>
+  <testcase time="3.58" classname="Cenário: Pesquisar produto inexistente" name="Cenário: Pesquisar produto inexistente">
+    <skipped/>
+    <system-err>21/06/2014 14:34:54 org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: executable: c:\webdrivers\phantomjs.exe
+21/06/2014 14:34:54 org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: port: 44972
+21/06/2014 14:34:54 org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: arguments: [--webdriver=44972, --webdriver-logfile=D:\Desenvolvimento\Workspaces\RTSTreinamento\TurmaJunho\phantomjsdriver.log]
+21/06/2014 14:34:54 org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: environment: {}
+PhantomJS is launching GhostDriver...
+[INFO  - 2014-06-21T17:34:55.866Z] GhostDriver - Main - running on port 44972
+[INFO  - 2014-06-21T17:34:56.664Z] Session [5c97aae0-f96a-11e3-ac2f-8153e16fd0a9] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34&quot;,&quot;webSecurityEnabled&quot;:true}
+[INFO  - 2014-06-21T17:34:56.664Z] Session [5c97aae0-f96a-11e3-ac2f-8153e16fd0a9] - page.customHeaders:  - {}
+[INFO  - 2014-06-21T17:34:56.664Z] Session [5c97aae0-f96a-11e3-ac2f-8153e16fd0a9] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;1.9.7&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.1.0&quot;,&quot;platform&quot;:&quot;windows-8-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
+[INFO  - 2014-06-21T17:34:56.669Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5c97aae0-f96a-11e3-ac2f-8153e16fd0a9
+</system-err>
+  </testcase>
+  <testcase time="3.582" classname="Cenário: Pesquisar produto inexistente" name="Cenário: Pesquisar produto inexistente"/>
+  <testcase time="0.003" classname="Cenário: Pesquisar sem informar o nome do produto" name="Dado que eu esteja na página de pesquisa de produto">
+    <skipped/>
+  </testcase>
+  <testcase time="0.003" classname="Cenário: Pesquisar sem informar o nome do produto" name="Dado que existam filmes cadastrados">
+    <skipped/>
+  </testcase>
+  <testcase time="0.004" classname="Cenário: Pesquisar sem informar o nome do produto" name="Quando pesquiso o filme sem informar o nome">
+    <skipped/>
+  </testcase>
+  <testcase time="0.004" classname="Cenário: Pesquisar sem informar o nome do produto" name="Então visualizo todos os produtos cadastrados">
+    <skipped/>
+  </testcase>
+  <testcase time="2.957" classname="Cenário: Pesquisar sem informar o nome do produto" name="Cenário: Pesquisar sem informar o nome do produto">
+    <skipped/>
+    <system-err>21/06/2014 14:34:58 org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: executable: c:\webdrivers\phantomjs.exe
+21/06/2014 14:34:58 org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: port: 35850
+21/06/2014 14:34:58 org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: arguments: [--webdriver=35850, --webdriver-logfile=D:\Desenvolvimento\Workspaces\RTSTreinamento\TurmaJunho\phantomjsdriver.log]
+21/06/2014 14:34:58 org.openqa.selenium.phantomjs.PhantomJSDriverService &lt;init&gt;
+INFO: environment: {}
+PhantomJS is launching GhostDriver...
+[INFO  - 2014-06-21T17:34:59.465Z] GhostDriver - Main - running on port 35850
+[INFO  - 2014-06-21T17:34:59.749Z] Session [5e6df180-f96a-11e3-aa52-af58f2f6b4e3] - page.settings - {&quot;XSSAuditingEnabled&quot;:false,&quot;javascriptCanCloseWindows&quot;:true,&quot;javascriptCanOpenWindows&quot;:true,&quot;javascriptEnabled&quot;:true,&quot;loadImages&quot;:true,&quot;localToRemoteUrlAccessEnabled&quot;:false,&quot;userAgent&quot;:&quot;Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34&quot;,&quot;webSecurityEnabled&quot;:true}
+[INFO  - 2014-06-21T17:34:59.749Z] Session [5e6df180-f96a-11e3-aa52-af58f2f6b4e3] - page.customHeaders:  - {}
+[INFO  - 2014-06-21T17:34:59.749Z] Session [5e6df180-f96a-11e3-aa52-af58f2f6b4e3] - Session.negotiatedCapabilities - {&quot;browserName&quot;:&quot;phantomjs&quot;,&quot;version&quot;:&quot;1.9.7&quot;,&quot;driverName&quot;:&quot;ghostdriver&quot;,&quot;driverVersion&quot;:&quot;1.1.0&quot;,&quot;platform&quot;:&quot;windows-8-32bit&quot;,&quot;javascriptEnabled&quot;:true,&quot;takesScreenshot&quot;:true,&quot;handlesAlerts&quot;:false,&quot;databaseEnabled&quot;:false,&quot;locationContextEnabled&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;cssSelectorsEnabled&quot;:true,&quot;webStorageEnabled&quot;:false,&quot;rotatable&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;nativeEvents&quot;:true,&quot;proxy&quot;:{&quot;proxyType&quot;:&quot;direct&quot;}}
+[INFO  - 2014-06-21T17:34:59.756Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5e6df180-f96a-11e3-aa52-af58f2f6b4e3
+</system-err>
+  </testcase>
+  <testcase time="2.958" classname="Cenário: Pesquisar sem informar o nome do produto" name="Cenário: Pesquisar sem informar o nome do produto"/>
+</testsuite>
