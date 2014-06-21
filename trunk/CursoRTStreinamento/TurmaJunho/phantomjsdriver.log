@@ -120,3 +120,10 @@ Images":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Win
 [INFO  - 2014-06-21T17:37:02.052Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a75286e0-f96a-11e3-8b35-a31a3fc1ecd4
 [INFO  - 2014-06-21T17:42:00.968Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2014-06-21T17:42:00.969Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'a75286e0-f96a-11e3-8b35-a31a3fc1ecd4', because windowless
+[INFO  - 2014-06-21T18:10:04.846Z] GhostDriver - Main - running on port 42759
+[INFO  - 2014-06-21T18:10:05.386Z] Session [457d1c00-f96f-11e3-9214-85bdfbf02cdb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2014-06-21T18:10:05.386Z] Session [457d1c00-f96f-11e3-9214-85bdfbf02cdb] - page.customHeaders:  - {}
+[INFO  - 2014-06-21T18:10:05.394Z] Session [457d1c00-f96f-11e3-9214-85bdfbf02cdb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.7","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2014-06-21T18:10:05.394Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 457d1c00-f96f-11e3-9214-85bdfbf02cdb
+[INFO  - 2014-06-21T18:15:04.840Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2014-06-21T18:15:04.841Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '457d1c00-f96f-11e3-9214-85bdfbf02cdb', because windowless

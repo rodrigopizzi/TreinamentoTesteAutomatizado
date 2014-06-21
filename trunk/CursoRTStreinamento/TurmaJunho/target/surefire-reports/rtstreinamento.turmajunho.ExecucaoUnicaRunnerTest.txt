@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: rtstreinamento.turmajunho.ExecucaoUnicaRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.881 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.77 sec

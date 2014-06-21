@@ -4,15 +4,15 @@ Funcionalidade: Pesquisa de produtos
   Contexto: 
     Dado que eu esteja na página de pesquisa de produto
 
-  @validação
+  @validação @executar-esse
   Cenário: Pesquisar produto pelo nome completo
-    Dado que o filme "Senhor dos Anéis - As duas Torres" esteja cadastrado
-    Quando pesquiso o filme "Senhor dos Anéis - As duas Torres"
+    Dado que o filme "Senhor dos Aneis - As Duas Torres" esteja cadastrado
+    Quando pesquiso o filme "Senhor dos Aneis - As Duas Torres"
     Então visualizo que o filme foi pesquisado
 
   @validação @execução-manual
   Cenário: Pesquisar produto por parte do nome
-    Dado que o filme "Senhor dos Anéis - As duas Torres" esteja cadastrado
+    Dado que o filme "Senhor dos Aneis - As Duas Torres" esteja cadastrado
     E que o filme "Senhor dos Anéis - A sociedade do anel" esteja cadastrado
     Quando pesquiso o filme "Senhor dos Anéis"
     Então visualizo dois filmes no resultado da pesquisa
@@ -37,7 +37,7 @@ Funcionalidade: Pesquisa de produtos
 
   @validação
   Esquema do Cenário: Pesquisar produto por parte do nome
-    Dado que o filme "Senhor dos Anéis - As duas Torres" esteja cadastrado
+    Dado que o filme "Senhor dos Aneis - As Duas Torres" esteja cadastrado
     E que o filme "Senhor dos Anéis - A sociedade do anel" esteja cadastrado
     Quando pesquiso o filme "<valor-pesquisar>"
     Então visualizo "<quantidade>" filmes no resultado da pesquisa

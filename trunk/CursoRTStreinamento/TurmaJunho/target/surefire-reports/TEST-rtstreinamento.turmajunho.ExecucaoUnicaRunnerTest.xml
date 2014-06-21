@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.014" errors="0" skipped="0" tests="4" name="rtstreinamento.turmajunho.ExecucaoUnicaRunnerTest">
+<testsuite failures="0" time="0.01" errors="0" skipped="0" tests="4" name="rtstreinamento.turmajunho.ExecucaoUnicaRunnerTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\bin"/>
@@ -15,7 +15,7 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="test" value="rtstreinamento.turmajunho.ExecucaoUnicaRunnerTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Desenvolvimento\Workspaces\RTSTreinamento\TurmaJunho"/>
+    <property name="user.dir" value="C:\Users\Rodrigo\git\TreinamentoTesteAutomatizado\trunk\CursoRTStreinamento\TurmaJunho"/>
     <property name="java.runtime.version" value="1.6.0_45-b06"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre\lib\endorsed"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.6.0_45\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=rtstreinamento.turmajunho.ExecucaoUnicaRunnerTest test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean -Dtest=rtstreinamento.turmajunho.ExecucaoUnicaRunnerTest test"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="pt"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,8 +61,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="0.005" classname="Cenário: Cadastrar um email valido" name="Dado que o eu esteja na página de newsletter"/>
+  <testcase time="0.003" classname="Cenário: Cadastrar um email valido" name="Dado que o eu esteja na página de newsletter"/>
   <testcase time="0" classname="Cenário: Cadastrar um email valido" name="Quando tento cadastrar o email &quot;joao210620141040@gmail.com&quot; na newsletter"/>
-  <testcase time="0.001" classname="Cenário: Cadastrar um email valido" name="Então visualizo a mensagem &quot;Seu cadastro foi realizado com sucesso em nossa newsletter.&quot;"/>
-  <testcase time="0.008" classname="Cenário: Cadastrar um email valido" name="Cenário: Cadastrar um email valido"/>
+  <testcase time="0" classname="Cenário: Cadastrar um email valido" name="Então visualizo a mensagem &quot;Seu cadastro foi realizado com sucesso em nossa newsletter.&quot;"/>
+  <testcase time="0.007" classname="Cenário: Cadastrar um email valido" name="Cenário: Cadastrar um email valido"/>
 </testsuite>

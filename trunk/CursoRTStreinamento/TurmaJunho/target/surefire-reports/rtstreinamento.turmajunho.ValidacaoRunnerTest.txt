@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: rtstreinamento.turmajunho.ValidacaoRunnerTest
--------------------------------------------------------------------------------
-Tests run: 44, Failures: 0, Errors: 0, Skipped: 34, Time elapsed: 22.227 sec
