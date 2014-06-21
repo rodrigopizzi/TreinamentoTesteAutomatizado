@@ -3,16 +3,16 @@ package rtstreinamento.turmajunho;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Newsletter {
 	
 	private WebDriver webDriver;
 	
 	public Newsletter() {
-//		webDriver = new FirefoxDriver();
-		System.setProperty("phantomjs.binary.path", "c:\\webdrivers\\phantomjs.exe");
-		webDriver = new PhantomJSDriver();
+		webDriver = new FirefoxDriver();
+//		System.setProperty("phantomjs.binary.path", "c:\\webdrivers\\phantomjs.exe");
+//		webDriver = new PhantomJSDriver();
 		webDriver.get("http://tghcastro.lojaintegrada.com.br/");
 	}
 
